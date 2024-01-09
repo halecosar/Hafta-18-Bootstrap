@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kozmetik Favorilerim</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <style>
+        body {
+            background-color: #E9ECEF;
+        }
+
+        .navbar {
+            background-color: #343a40;
+        }
+
+        .navbar-dark .navbar-toggler-icon {
+            background-color: #fff;
+        }
+
+        .favoriler {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            grid-gap: 20px;
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .favori-card,
+        .favori-card2,
+        .favori-card3 {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .about-card {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<br>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Cilt Bakımı</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Anasayfa</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="myfavorites.html">Favorilerim</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutme.html">Hakkımda</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+    <br>
+
+    <div class="container text-center"  >
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://www.watsons.com.tr/medias/sys_master/prd-images/h7c/h89/9323879399454/prd-front-141281_365x385/prd-front-141281-365x385.jpg"
+                        class="card-img-1" alt="garnier">
+                    <div class="card-body">
+                        <h5 class="card-title">Garnier</h5>
+                        <p class="card-text">Bu ürün rimel, göz farı ve ruj dahil tüm makyaj kalıntılarını gidermek için
+                            tasarlanmıştır. Her bir bölge için ayrı ürün kullanılmasına gerek bırakmamasıyla oldukça
+                            avantajlıdır.
+                            Uygun miktarda pamuğa döküldükten sonra cilde nazik hareketlerle uygulanmalıdır. Ürün makyaj
+                            temizlenene kadar cilde tekrar uygulanabilir.</p>
+                        <a href="https://www.watsons.com.tr/garnier-micellar-kusursuz-makyaj-temizleme-suyu-400-ml/p/BP_141281"
+                            class="btn btn-primary">İncele</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://www.watsons.com.tr/medias/sys_master/prd-images/hba/h33/8905433612318/prd-front-159314_365x385/prd-front-159314-365x385.jpeg"
+                        class="card-img-1" alt="Ziaja">
+                    <div class="card-body">
+                        <h5 class="card-title">Ziaja</h5>
+                        <p class="card-text">Polonyalı Ziaja tarafından üretilen Manuka tonik, yüz temizleme ürünleri
+                            arasında yer alıyor ve yağlı ya da karma ciltleri nemlendirici için hazır hale getiriyor.
+                            Ziaja tonik
+                            ciltte kalan makyaj artıklarını temizlemeye, genişlemiş gözeneklerinizi azaltmaya ve
+                            cildinizi
+                            sıkılaştırmaya yardımcı olur..</p>
+                        <a href="https://www.watsons.com.tr/ziaja-manuka-akneli-cilt-tonik-200-ml/p/BP_156358"
+                            class="btn btn-primary">İncele</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://cdn.dermogrup.net//etat-pur-pure-moisturizers-yaslanma-karsiti-goz-cevresi-nemlendirici-bakim-kremi-15-ml-etat-pur-153739-68-O.jpg"
+                        class="card-img-1" alt="etat pur">
+                    <div class="card-body">
+                        <h5 class="card-title">Etat Pur</h5>
+                        <p class="card-text">Yağlı olmayan ipeksi nemlendirici etki ile cildinizi düzenlemek için
+                            kusursuz
+                            bir yüzey oluşturan nemlendirici bir serumdur. Bu serum nemi yeniler ve kuru cilde ihtiyaç
+                            duyulan
+                            hidrasyonu sağlar. 5 çeşit hyalüronik asit içeren bu serum, cildi herhangi bir yapışkanlık
+                            olmadan
+                            yoğun bir şekilde nemlendirir.</p>
+                        <a href="https://www.dermoeczanem.com/etat-pur-pure-moisturizers-yaslanma-karsiti-goz-cevresi-nemlendirici-bakim-kremi-15-ml"
+                            class="btn btn-primary">İncele</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- Bootstrap JS ve Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
